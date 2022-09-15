@@ -1,0 +1,277 @@
+[
+  {
+    "nombreDificultad": "Super Easy",
+    "preguntas": [
+      {
+        "enunciado": "Cuál es el río más largo del mundo?",
+        "respuestas": [
+          { "texto": "Amazonas" },
+          { "texto": "Nilo" },
+          { "texto": "Congo" },
+          { "texto": "Paraná" }
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "enunciado": "Cuál es la montaña más alta del mundo?",
+        "respuestas": [
+          { "texto": "Chirripó" },
+          { "texto": "Everest" },
+          { "texto": "Kilimanjaro" },
+          { "texto": "Aconcagua" }
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "enunciado": "Cuál país tiene la mayor población del mundo?",
+        "respuestas": [
+          { "texto": "India" },
+          { "texto": "Costa Rica" },
+          { "texto": "China" },
+          { "texto": "Estados Unidos" }
+        ],
+        "respuestaCorrecta": 2
+      },
+      {
+        "enunciado": "Cuál es el río más largo de África?",
+        "respuestas": [
+          { "texto": "Kasai" },
+          { "texto": "Tárcoles" },
+          { "texto": "Congo" },
+          { "texto": "Nilo" }
+        ],
+        "respuestaCorrecta": 3
+      },
+      {
+        "enunciado": "Cuál es la capital de México?",
+        "respuestas": [
+          { "texto": "Monterrey" },
+          { "texto": "Tulúm" },
+          { "texto": "Ciudad de México" },
+          { "texto": "Cancún" }
+        ],
+        "respuestaCorrecta": 2
+      }
+    ]
+  },
+  {
+    "nombreDificultad": "Easy",
+    "preguntas": [
+      {
+        "enunciado": "Cuál es el nombre del océano más grande del mundo?",
+        "respuestas": [
+          { "texto": "Océano Ártico" },
+          { "texto": "Océano Atlántico" },
+          { "texto": "Océano Índico" },
+          { "texto": "Océano Pacífico" }
+        ],
+        "respuestaCorrecta": 3
+      },
+      {
+        "enunciado": "En que país de encuentran las pirámides de Giza?",
+        "respuestas": [
+          { "texto": "India" },
+          { "texto": "Egipto" },
+          { "texto": "Marruecos" },
+          { "texto": "Israel" }
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "enunciado": "Cuál es la capital de Tailandia?",
+        "respuestas": [
+          { "texto": "Pattaya City" },
+          { "texto": "Bali" },
+          { "texto": "Chiang Mai" },
+          { "texto": "Bangkok" }
+        ],
+        "respuestaCorrecta": 3
+      },
+      {
+        "enunciado": "Cuántos planetas hay que nuestro sistem solar?",
+        "respuestas": [
+          { "texto": "7" },
+          { "texto": "9" },
+          { "texto": "8" },
+          { "texto": "10" }
+        ],
+        "respuestaCorrecta": 2
+      },
+      {
+        "enunciado": "¿Qué idioma es el más hablado en el planeta?",
+        "respuestas": [
+          { "texto": "Español" },
+          { "texto": "Mandarín" },
+          { "texto": "Inglés" },
+          { "texto": "Ruso" }
+        ],
+        "respuestaCorrecta": 1
+      }
+    ]
+  },
+  {
+    "nombreDificultad": "Medium",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué zona terrestre es la más profunda?",
+        "respuestas": [
+          { "texto": "La fosa de las Marianas" },
+          { "texto": "El grán cañon" },
+          { "texto": "Cavernas de venado" },
+          { "texto": "La fosa de Tonga" }
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "enunciado": "¿Qué país recibe la visita de más turistas en todo el mundo?",
+        "respuestas": [
+          { "texto": "Estados Unidos" },
+          { "texto": "Francia" },
+          { "texto": "Costa Rica" },
+          { "texto": "México" }
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "enunciado": "¿Cuál es la capital actual de Marruecos?",
+        "respuestas": [
+          { "texto": "Agadir" },
+          { "texto": "Casablanca" },
+          { "texto": "Rabat" },
+          { "texto": "Meknes" }
+        ],
+        "respuestaCorrecta": 2
+      },
+      {
+        "enunciado": "¿Qué río pasa por más países?",
+        "respuestas": [
+          { "texto": "Amazonas" },
+          { "texto": "Danubio" },
+          { "texto": "Mississippi" },
+          { "texto": "Ganges" }
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "enunciado": "¿Dónde se encuentra el arrecife de coral más grande?",
+        "respuestas": [
+          { "texto": "Hawaii" },
+          { "texto": "Indonesia" },
+          { "texto": "Bahamas" },
+          { "texto": "Australia" }
+        ],
+        "respuestaCorrecta": 3
+      }
+    ]
+  },
+  {
+    "nombreDificultad": "Hard",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál es la ciudad más poblada del mundo?",
+        "respuestas": [
+          { "texto": "Singapour" },
+          { "texto": "Bangkok" },
+          { "texto": "Tokio" },
+          { "texto": "Nueva York" }
+        ],
+        "respuestaCorrecta": 2
+      },
+      {
+        "enunciado": "¿El desierto más grande del mundo?",
+        "respuestas": [
+          { "texto": "Sahara" },
+          { "texto": "Atacama" },
+          { "texto": "Gobi" },
+          { "texto": "Patagónico" }
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "enunciado": "¿Cuál es la montaña más alta de España?",
+        "respuestas": [
+          { "texto": "Veleta" },
+          { "texto": "Aneto" },
+          { "texto": "Teide" },
+          { "texto": "Peñalara" }
+        ],
+        "respuestaCorrecta": 2
+      },
+      {
+        "enunciado": "¿Qué río pasa por París?",
+        "respuestas": [
+          { "texto": "Rin" },
+          { "texto": "Mosela" },
+          { "texto": "Mosa" },
+          { "texto": "Sena" }
+        ],
+        "respuestaCorrecta": 3
+      },
+      {
+        "enunciado": "¿Qué país se encuentra entre dos continentes?",
+        "respuestas": [
+          { "texto": "Turquía" },
+          { "texto": "Suiza" },
+          { "texto": "Croatia" },
+          { "texto": "Ukrania" }
+        ],
+        "respuestaCorrecta": 0
+      }
+    ]
+  },
+  {
+    "nombreDificultad": "Extra Hard",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál es la cordillera de montañas más larga del mundo?",
+        "respuestas": [
+          { "texto": "Alpes" },
+          { "texto": "Andes" },
+          { "texto": "Himalayas" },
+          { "texto": "Rocallosas" }
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "enunciado": "¿Qué ciudad se considera la más antigua?",
+        "respuestas": [
+          { "texto": "Tel Aviv" },
+          { "texto": "Nepal" },
+          { "texto": "Siria" },
+          { "texto": "París" }
+        ],
+        "respuestaCorrecta": 2
+      },
+      {
+        "enunciado": "¿Qué isla es la más grande del mundo?",
+        "respuestas": [
+          { "texto": "Groenlandia" },
+          { "texto": "Madagascar" },
+          { "texto": "Isla del Coco" },
+          { "texto": "Hawaii" }
+        ],
+        "respuestaCorrecta": 0
+      },
+      {
+        "enunciado": "¿Cuántos países forman parte de la Unión Europea?",
+        "respuestas": [
+          { "texto": "30" },
+          { "texto": "27" },
+          { "texto": "138" },
+          { "texto": "130" }
+        ],
+        "respuestaCorrecta": 1
+      },
+      {
+        "enunciado": " ¿Cuál es el lago más grande del mundo?",
+        "respuestas": [
+          { "texto": "Titicaca" },
+          { "texto": "Michigan" },
+          { "texto": "Mar Caspio" },
+          { "texto": "Ontario" }
+        ],
+        "respuestaCorrecta": 2
+      }
+    ]
+  }
+]
