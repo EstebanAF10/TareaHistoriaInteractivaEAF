@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Pregunta
+public class Opcion
 {
+    public string textoOpcion;
     public string enunciado;
-
-    public Respuesta[] respuestas;
-
-    public int respuestaCorrecta;
+    public Opcion[] opciones;
+    public bool esFinal;
 }
+

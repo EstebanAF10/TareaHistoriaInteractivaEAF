@@ -10,12 +10,12 @@ using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
-    public Dificultad[] bancoPreguntas;
+    public Opcion bancoPreguntas;
     public TextMeshProUGUI enunciado;
-    public TextMeshProUGUI[] respuestas;
+    public TextMeshProUGUI[] opciones;
     public int nivelPregunta;
-    public Pregunta preguntaActual;
-    public PanelComplementario panelComplementario;
+    public Opcion preguntaActual;
+    //public PanelComplementario panelComplementario;
     public Button[] btnRespuesta;
 
     // Start is called before the first frame update
@@ -23,25 +23,26 @@ public class Game : MonoBehaviour
     {
         nivelPregunta = 0;
         cargarBancoPreguntas();
+        preguntaActual = bancoPreguntas;
         setPregunta();
+
         
     }
 
     public void setPregunta(){
-        int preguntaRandom = Random.Range(0,bancoPreguntas[nivelPregunta].preguntas.Length);
-        preguntaActual = bancoPreguntas[nivelPregunta].preguntas[preguntaRandom];
-        enunciado.text = preguntaActual.enunciado;
 
-        for(int i = 0; i < respuestas.Length; i++)
+        enunciado.text = preguntaActual.enunciado; //Aqui se asigna el enunciado en el juego
+
+        for(int i = 0; i < opciones.Length; i++)
         {
-            respuestas[i].text = preguntaActual.respuestas[i].texto;
+            opciones[i].text = preguntaActual.opciones[i].textoOpcion;
         }
     }
 
     public void cargarBancoPreguntas(){
         try{
 
-            bancoPreguntas = JsonConvert.DeserializeObject<Dificultad[]>(File.ReadAllText(Application.streamingAssetsPath + "/QuestionBank.json"));
+            bancoPreguntas = JsonConvert.DeserializeObject<Opcion>(File.ReadAllText(Application.streamingAssetsPath + "/QuestionBank.json"));
 
         }catch(System.Exception ex)
         {
@@ -50,32 +51,18 @@ public class Game : MonoBehaviour
         }
     }
 
-    public void evaluarPregunta(int respuestaJugador)
+    public void evaluarPregunta(int respuestaJugador) //Solo puede ser  0 o 1
     {
-        if (respuestaJugador == preguntaActual.respuestaCorrecta)
+        preguntaActual = preguntaActual.opciones[respuestaJugador];
+        if (preguntaActual.esFinal)
         {
-            nivelPregunta++;
-            if (nivelPregunta == bancoPreguntas.Length)
-            {
-                SceneManager.LoadScene("Gane");
-            }
-            else
-            {
-                try
-                {
-                    panelComplementario.desplegar();
-                }
-                catch (System.Exception ex)
-                {
-                    Debug
-                        .Log("Olvidaste configurar el panel complementario: " +
-                        ex.Message);
-                }
-            }
+          
+            SceneManager.LoadScene("Gane");
+        
         }
         else
         {
-            SceneManager.LoadScene("Perdida");
+            setPregunta();
         }
     }
 }

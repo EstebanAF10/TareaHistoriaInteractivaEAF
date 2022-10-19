@@ -432,7 +432,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1646826064}
+      - m_Target: {fileID: 1458868049171506688, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
         m_TargetAssemblyTypeName: CambiarEscena, Assembly-CSharp
         m_MethodName: CambiarEscenaClick
         m_Mode: 5
@@ -442,18 +442,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Juego
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 182114704}
-        m_TargetAssemblyTypeName: Sonidos, Assembly-CSharp
-        m_MethodName: playSonido
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 13a8f1d893812489fbb6a2c18bb3e3d6, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &695326858
@@ -781,25 +769,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1646826064}
+      - m_Target: {fileID: 1458868049171506688, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
         m_TargetAssemblyTypeName: CambiarEscena, Assembly-CSharp
         m_MethodName: SalirJuego
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 182114704}
-        m_TargetAssemblyTypeName: Sonidos, Assembly-CSharp
-        m_MethodName: playSonido
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 13a8f1d893812489fbb6a2c18bb3e3d6, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -843,74 +819,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473129173}
   m_CullTransparentMesh: 1
---- !u!1001 &1646826063
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 933.7373
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 638.5898
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8.972668
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1320606259315458162, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8545448953554625430, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-      propertyPath: m_Name
-      value: Scripts
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
---- !u!114 &1646826064 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1458868049171506688, guid: b57a1932b55dd413681ec9e6a32666c2, type: 3}
-  m_PrefabInstance: {fileID: 1646826063}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b250970bcfc7a41af8e59b130ebb5dfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1699594906
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,7 +877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Trivia Geograf\xEDa\n"
+  m_text: Historia Interactiva
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -7,8 +7,8 @@ public class CambiarEscena : MonoBehaviour
 {
     public void CambiarEscenaClick(string sceneName){
         Debug.Log("Cambiando de escena " + sceneName);
-        //SceneManager.LoadScene(sceneName);
-        StartCoroutine(retrasoEscena(sceneName));
+        SceneManager.LoadScene(sceneName);
+        //StartCoroutine(retrasoEscena(sceneName));
     }
 
     public void SalirJuego(){
@@ -16,10 +16,11 @@ public class CambiarEscena : MonoBehaviour
         Application.Quit();
     }
 
-    IEnumerator retrasoEscena(string sceneName){
-        yield return new WaitForSecondsRealtime(1f);
-        SceneManager.LoadScene(sceneName);
-    }
+    // IEnumerator retrasoEscena(string sceneName){
+    //     yield return new WaitForSecondsRealtime(1f);
+    //     SceneManager.LoadScene(sceneName);
+    // }
 
 
 }
+
