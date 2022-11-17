@@ -1,24 +1,24 @@
 {
   "textoOpcion": "",
-  "enunciado": "Pregunta Inicial",
+  "enunciado": "Pedro se encuentra perdido en el bosque con solo una linterna, agua y un poco de comida que le podrían rendir un par de días más. Al llegar la noche, Pedro decide prepararse para dormir y comienza a buscar refugio en ...",
   "opciones": [
     {
-      "textoOpcion": "Respuesta Colores",
-      "enunciado": "Pregunta 2 (Colores)",
+      "textoOpcion": "Una cueva",
+      "enunciado": "La cueva se encontraba en la pared de una montaña y se extendía por kilómetros. Salía un fuerte viento y una pequeña luz que le daba esperanza de que la salida del bosque estría al final de la cueva. Pedro toma su cosas y ...",
       "opciones": [
         {
-          "textoOpcion": "Rojo",
-          "enunciado": "Pregunta 3.1 (Colores)",
+          "textoOpcion": "Explora la cueva",
+          "enunciado": "Dos días pasaron desde que Pedro entró a la cueva, la luz de su linterna era cada vez más baja. De repente se encuentra con dos caminos, y Pedro decide seguir hacia la ...",
           "opciones": [
             {
-              "textoOpcion": "Rojo Claro",
-              "enunciado": "",
+              "textoOpcion": "Derecha",
+              "enunciado": "Pedro sigue una pequeña luz dentro de la cueva y después de varias horas logra salir de la cueva y el bosque.",
               "opciones": [{}],
               "esFinal": true
             },
             {
-              "textoOpcion": "Rojo Oscuro",
-              "enunciado": "",
+              "textoOpcion": "Izquierda",
+              "enunciado": "Pedro nunca logra salir de la cueva",
               "opciones": [{}],
               "esFinal": true
             }
@@ -26,18 +26,18 @@
           "esFinal": false
         },
         {
-          "textoOpcion": "Azul",
-          "enunciado": "Pregunta 3.2 (Colores)",
+          "textoOpcion": "Acampa cerca de la entrada",
+          "enunciado": "En la mañana siguiente, Pedro despierta con la vista despejada de todo el bosque. A lo largo ve dos cosas que le llaman la atención. Un río a la derecha y unas ruinas a la izquierda. Pedro decide ...",
           "opciones": [
             {
-              "textoOpcion": "Azul Claro",
-              "enunciado": "",
+              "textoOpcion": "Caminar hacia las ruinas",
+              "enunciado": "En las ruinas encuentra un grupo de estudiantes en excursión y logra salir del bosque con ellos.",
               "opciones": [{}],
               "esFinal": true
             },
             {
-              "textoOpcion": "Azul Oscuro",
-              "enunciado": "",
+              "textoOpcion": "Caminar a la orilla del río",
+              "enunciado": "Pedro camina sobre la orilla por horas y termina en una gigantesca catarata, más perdido de lo que estaba antes. Nunca logra salir del bosque.",
               "opciones": [{}],
               "esFinal": true
             }
@@ -48,22 +48,22 @@
     },
 
     {
-      "textoOpcion": "Respuesta Animales",
-      "enunciado": "Pregunta 2 (Animales)",
+      "textoOpcion": "La copa de un gran árbol",
+      "enunciado": "Pedro está seguro de cualquier depredador en la copa del árbol, pero no tomó en cuenta un gran panal de avispas que se encontraba muy cerca de donde pretendía dormir. Ahora no sabe que hacer, si ...",
       "opciones": [
         {
-          "textoOpcion": "Mamíferos",
-          "enunciado": "Pregunta 3.1 (Animales)",
+          "textoOpcion": "Bajar del árbol en medio de la noche",
+          "enunciado": "Pedro baja del árbol y corre desesperado por miedo a algún depredador. Siente que lo están siguiendo y ...",
           "opciones": [
             {
-              "textoOpcion": "Herbívoro",
-              "enunciado": "",
+              "textoOpcion": "Salta al río",
+              "enunciado": "Las fuertes corrientes lo arrastran hasta el fondo del río y no logra salir.",
               "opciones": [{}],
               "esFinal": true
             },
             {
-              "textoOpcion": "Carnívoro",
-              "enunciado": "",
+              "textoOpcion": "Se detiene para enfrentar lo que lo está siguiendo.",
+              "enunciado": "El 'Depredador' que lo seguiá era un montañista que pasaba por la zona. Juntos salieron del bosque y Pedro logra sobrevivir.",
               "opciones": [{}],
               "esFinal": true
             }
@@ -71,18 +71,18 @@
           "esFinal": false
         },
         {
-          "textoOpcion": "Reptiles",
-          "enunciado": "Pregunta 3.2 (Animales)",
+          "textoOpcion": "Dormir en el árbol esperando a que no lo piquen las avispas",
+          "enunciado": "Pedro no pudo dormir por estar cubriéndose de las avispas. Al día siguiente se levanta trasnochado y sin energía para seguir caminando. Decide ...",
           "opciones": [
             {
-              "textoOpcion": "Lagartos",
-              "enunciado": "",
+              "textoOpcion": "Descansar a la orilla del río",
+              "enunciado": "Pedro entra en un sueño profundo a la orilla del río y es atacado por un oso que merodeaba por la zona.",
               "opciones": [{}],
               "esFinal": true
             },
             {
-              "textoOpcion": "Culebras",
-              "enunciado": "",
+              "textoOpcion": "Seguir caminando",
+              "enunciado": "Pedro camina por horas y horas. Cuando estaba apunto de rendirse, es encontrado por un grupo de rescatistas que lo lograron ver desde un heelicóptero.",
               "opciones": [{}],
               "esFinal": true
             }

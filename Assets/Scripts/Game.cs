@@ -17,6 +17,7 @@ public class Game : MonoBehaviour
     public Opcion preguntaActual;
     //public PanelComplementario panelComplementario;
     public Button[] btnRespuesta;
+    public static string enunciadoFinal;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,10 @@ public class Game : MonoBehaviour
         }
     }
 
+    // public void setEnunciadoFinal(){
+    //     enunciado.text = preguntaActual.enunciado;
+    // }
+
     public void cargarBancoPreguntas(){
         try{
 
@@ -53,11 +58,14 @@ public class Game : MonoBehaviour
 
     public void evaluarPregunta(int respuestaJugador) //Solo puede ser  0 o 1
     {
+        nivelPregunta ++;
+
         preguntaActual = preguntaActual.opciones[respuestaJugador];
         if (preguntaActual.esFinal)
         {
-          
-            SceneManager.LoadScene("Gane");
+            Debug.Log(preguntaActual.enunciado);
+            enunciadoFinal = preguntaActual.enunciado;
+            SceneManager.LoadScene("Final");
         
         }
         else
